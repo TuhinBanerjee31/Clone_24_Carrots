@@ -2,13 +2,13 @@
 let tl= gsap.timeline({
     scrollTrigger: {
         Trigger: '#nav',
-        start: 270,
+        start: 160,
         scrub: true
     }
 })
 
 tl.to('#nav', {
-    y: -1000,
+    y: -2000,
     duration: 2
 })
 
